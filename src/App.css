@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.conteiner{
+margin: 20px auto;  
+width: 700px;
+height: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.titulo{
+  width: 100%;
+  height: max-content;
+  text-align: center;
+}
+
+.titulo h1{
+  margin: 0 auto;
+  
+}
+
+.primerTexto, .segundoTexto {
+  position: absolute;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  top: 20%;
+  
+}
+
+
+.imagen img{
+  margin: 0;
+  max-width: 500px;
+  max-height: 500px;
+
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.etiqueta {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.selector {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+
+@media (max-width:600px){
+  .conteiner{
+    width: 80%;
+  }
+}
